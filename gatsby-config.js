@@ -36,6 +36,17 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     // https://www.npmjs.com/package/gatsby-plugin-google-fonts
-    
+    // gatsby-plugin-google-fonts 
+    // couldn't get the font weights to work using the plugin so using @import in css instead
+    //{
+      //resolve: `gatsby-plugin-google-fonts`,
+      //options: {
+        //fonts: [
+          //`Roboto`,
+          //`source sans pro\:100,200,300,400,400i,500,600,700,800,900` // you can also specify font weights and styles
+        //],
+        //display: 'swap'
+      //},
+    //}, 
   ],
 }
