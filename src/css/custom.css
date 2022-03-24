@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+h1 {
+    font-family: 'Montserrat Subrayada';
+}
+
+
 .col {
     background-color: green;
     justify-content: center;
@@ -12,11 +19,14 @@
     --white: #ffffff;
     --gray: rgb(53, 52, 52);
     
+    
   }
 
 body {
     background-color: var(--primary);
 }
+
+
 
 /* 
 *********** Navbar Dark ***********
