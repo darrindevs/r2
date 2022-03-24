@@ -15,9 +15,19 @@ h2 {
 }
 
 
-.col {
-    background-color: green;
-    justify-content: center;
+.col1 {
+    background-color: gray;
+    
+}
+
+.col2 {
+    background-color: rgb(104, 103, 103);
+   
+}
+
+.col3 {
+    background-color: rgb(49, 48, 48);
+   
 }
 
 /* 

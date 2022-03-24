@@ -48,16 +48,17 @@ const Layout = ({ children }) => {
       {/* Custom Container */}
         <Container>
           <main>
-            <Row>
-              <Col>1 of 3</Col>
-              <Col>2 of 3 (wider)</Col>
-              <Col>3 of 3</Col>
-            </Row>
-            <Row>
-              <Col>1 of 3</Col>
-              <Col>{children}</Col>
-              <Col>3 of 3</Col>
-            </Row>
+          <Row id="hero" className="justify-content-md-center pt-5 pb-5">
+            <Col className="col1" md={{ span: 4, offset: 0 }}>
+              <h1>hello</h1>
+            </Col>
+            <Col  className="col2" md={{ span: 4, offset: 0 }}>
+            {children}
+            </Col>
+            <Col  className="col3" md={{ span: 4, offset: 0 }}>
+              <h1>hello</h1>
+            </Col>
+          </Row>
           </main>
         </Container>
         <Footer/>
