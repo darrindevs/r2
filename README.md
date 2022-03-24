@@ -1,8 +1,5 @@
-# gatsby-bsr-starter
-
-- Gatsby Starter + Bootstrap React 
-- Light and Dark Navbars
-- Footer 
-
-Have fun! 
 # r2
+
+- An experimental blueprint theme for 1140nft 
+
+- Bootstrapped with Gatsby Starter + Bootstrap React 
