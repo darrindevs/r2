@@ -4,11 +4,11 @@ import { Navbar } from 'react-bootstrap'
 
 const NavDark = (
     <Navbar bg="dark" expand="lg" className="navbar-dark">
-      <Navbar.Brand href="#home" className="ms-3">Navbar with text</Navbar.Brand>
+      <Navbar.Brand href="#home" className="ms-3">1140nft</Navbar.Brand>
       <Navbar.Toggle className="me-3 custom-toggler"/>
       <Navbar.Collapse className="justify-content-end me-3">
         <Navbar.Text className="text-white ms-3">
-          Foobar
+          some links
         </Navbar.Text>
       </Navbar.Collapse>
   </Navbar>

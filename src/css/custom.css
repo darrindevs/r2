@@ -3,10 +3,30 @@
     justify-content: center;
 }
 
+/* 
+*********** Base ***********
+*/
+
+:root {
+    --primary: #140d79;
+    --white: #ffffff;
+    --gray: rgb(53, 52, 52);
+    
+  }
+
+body {
+    background-color: var(--primary);
+}
 
 /* 
 *********** Navbar Dark ***********
 */
+
+.navbar-dark {
+    background-color: #140d79 !important;
+}
+
+
 
 /* How to style the toggler svg https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
 /* Set the border color */
