@@ -4,31 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@900&family=Roboto:wght@100;900&display=swap');
 
-h1 {
-    font-family: 'Roboto';
-    font-weight: 100;
-}
 
-h2 {
-    font-family: 'Roboto';
-    font-weight: 900;
-}
-
-
-.col1 {
-    background-color: gray;
-    
-}
-
-.col2 {
-    background-color: rgb(104, 103, 103);
-   
-}
-
-.col3 {
-    background-color: rgb(49, 48, 48);
-   
-}
 
 /* 
 *********** Base ***********
@@ -44,16 +20,72 @@ h2 {
 
 body {
     background-color: var(--primary);
+    color: var(--white);
+}
+
+/* 
+*********** Headings  ***********
+*/
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 
 
+/* 
+*********** Layout ***********
+*/
 
+.container-fluid {
+    background-color: var(--primary); 
+    margin-right: 100px;
+    
+}
+
+#gatsby-focus-wrapper {
+    background-color: var(--primary);
+}
+
+#col-1 {
+    background-color: var(--primary);
+    
+}
+
+#col-2 {
+    background-color: var(--primary);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-width: 80px;
+    min-height: 100%;
+    margin-right: -120px;
+    border-left: #ffffff solid 1px;
+    
+}
+
+.foo {
+    margin-right: 200px;
+}
 /* 
 *********** Navbar Dark ***********
 */
 
+
 .navbar-dark {
     background-color: #140d79 !important;
+    border-bottom: 1px solid var(--white);
+    margin-left: 60px;
+    margin-right: 0px;
+    
+}
+
+.nav-right {
+    margin-right: 20px;
 }
 
 
@@ -71,14 +103,16 @@ body {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+
+
 /* 
 *********** Footer ***********
 */
 .footer{
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: rgb(235, 195, 64);
-    position: fixed;
+    margin-left: 60px;
+    background-color: var(--primary);
+    /*position: fixed;*/
+    border-top: #ffffff 1px solid;
     bottom: 0;
     left: 0;
     width: 100%;

@@ -46,21 +46,38 @@ const Layout = ({ children }) => {
       {/* Custom Navbar */}
       {NavDark}
       {/* Custom Container */}
-        <Container>
+        <div className="container-fluid">
+          <div className="container-fluid foo">
           <main>
-          <Row id="hero" className="justify-content-md-center pt-5 pb-5">
-            <Col className="col1" md={{ span: 4, offset: 0 }}>
-              <h1>hello</h1>
-            </Col>
-            <Col  className="col2" md={{ span: 4, offset: 0 }}>
+          <Row id="row-wrapper" className="justify-content-md-center">
+            <Col  id="col-1" lg={{ span: 11, offset: 0 }}>
+              <Row id="row-1">
+              <Col  className="col-a" lg={{ span: 3, offset: 0 }}>
+                1
+              </Col>
+              <Col  className="col-b" lg={{ span: 3, offset: 0 }}>
+                2
+              </Col>
+              <Col  className="col-c" lg={{ span: 3, offset: 0 }}>
+                3
+              </Col>
+              <Col  className="col-d" lg={{ span: 3, offset: 0 }}>
+                4
+              </Col>
+              </Row>{/* Row-1 */}
             {children}
             </Col>
-            <Col  className="col3" md={{ span: 4, offset: 0 }}>
-              <h1>hello</h1>
+            <Col id="col-2" lg={{ span: 1, offset: 0 }}>
+              <h6 className="mt-5 marginalia"><span className="me-3">1140 Elm St., Los Angeles, CA 90000 * 9200 sq ft * Permit #3333</span></h6>
             </Col>
-          </Row>
+          </Row>{/* Row-Wrapper */}
           </main>
-        </Container>
+
+
+
+
+          </div>
+        </div>
         <Footer/>
     </>
   )
