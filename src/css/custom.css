@@ -61,6 +61,7 @@ h6 {
 p {
     font-family: 'Roboto Mono';
     font-weight: 200;
+    font-size: large;
 }
 
 
@@ -109,7 +110,7 @@ p {
 
 .navbar-dark {
     background-color: #140d79 !important;
-    border-bottom: 1px solid var(--white);
+    border-bottom: 1px groove var(--white);
     margin-left: 60px;
     margin-right: 0px;
     
@@ -171,5 +172,8 @@ p {
 @media (max-width: 767.98px) { 
     #nav-launch {
         display: none;
- }
+ },
+    #col-2 {
+        display: none;
+    }
 }
