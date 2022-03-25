@@ -2,9 +2,9 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@900&display=swap');*/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@900&family=Roboto:wght@100;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@900&family=Roboto:wght@100;900&display=swap');*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* 
 *********** Base ***********
@@ -24,17 +24,43 @@ body {
 }
 
 /* 
-*********** Headings  ***********
+*********** Text  ***********
 */
 
 h1 {
-    font-family: 'Roboto';
-    font-weight: 100;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    font-size: 80px;
 }
 
 h2 {
-    font-family: 'Roboto';
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto Mono';
     font-weight: 900;
+}
+
+h4 {
+    font-family: 'Roboto Mono';
+    font-weight: 900;
+}
+
+h5 {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+
+h6 {
+    font-family: 'Roboto Mono';
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Roboto Mono';
+    font-weight: 200;
 }
 
 
@@ -68,6 +94,11 @@ h2 {
     
 }
 
+.col-b {
+    margin-left: 40px;
+    padding-right: 60px;
+}
+
 .foo {
     margin-right: 200px;
 }
@@ -88,6 +119,11 @@ h2 {
     margin-right: 20px;
 }
 
+.brando {
+    font-size: xx-large;
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+}
 
 
 /* How to style the toggler svg https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
@@ -103,7 +139,14 @@ h2 {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* 
+*********** Buttons. ***********
+*/
 
+.btn-outline-primary {
+    border-color: #ffffff;
+    color: white;
+}
 
 /* 
 *********** Footer ***********
@@ -117,3 +160,16 @@ h2 {
     left: 0;
     width: 100%;
   }
+
+
+/* 
+*********** Media Queries ***********
+*/
+
+ 
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    #nav-launch {
+        display: none;
+ }
+}

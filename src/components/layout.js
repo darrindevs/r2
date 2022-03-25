@@ -52,20 +52,15 @@ const Layout = ({ children }) => {
           <Row id="row-wrapper" className="justify-content-md-center">
             <Col  id="col-1" lg={{ span: 11, offset: 0 }}>
               <Row id="row-1">
-              <Col  className="col-a" lg={{ span: 3, offset: 0 }}>
-                1
+              <Col  className="col-a" lg={{ span: 2, offset: 0 }}>
               </Col>
-              <Col  className="col-b" lg={{ span: 3, offset: 0 }}>
-                2
+              <Col  className="col-b mt-5" lg={{ span: 8, offset: 0 }}>
+              {children}
               </Col>
-              <Col  className="col-c" lg={{ span: 3, offset: 0 }}>
-                3
-              </Col>
-              <Col  className="col-d" lg={{ span: 3, offset: 0 }}>
-                4
-              </Col>
+              <Col  className="col-c" lg={{ span: 2, offset: 0 }}>
+               </Col>
               </Row>{/* Row-1 */}
-            {children}
+            
             </Col>
             <Col id="col-2" lg={{ span: 1, offset: 0 }}>
               <h6 className="mt-5 marginalia"><span className="me-3">1140 Elm St., Los Angeles, CA 90000 * 9200 sq ft * Permit #3333</span></h6>
