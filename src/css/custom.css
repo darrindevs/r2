@@ -79,7 +79,8 @@ ul li:before {
 }
 
 li {
-    margin-bottom: 3px;
+    margin-bottom: 9px;
+    font-size: 18px;
 }
 
 a {
@@ -90,6 +91,11 @@ a {
 
 }
 
+.vision {
+    font-size: 1.75rem !important;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
 
 
 /* 
