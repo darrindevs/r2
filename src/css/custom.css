@@ -29,18 +29,18 @@ body {
 
 h1 {
     font-family: 'Roboto Mono';
-    font-weight: 500;
+    font-weight: 700;
     font-size: 80px;
 }
 
 h2 {
     font-family: 'Roboto Mono';
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h3 {
     font-family: 'Roboto Mono';
-    font-weight: 900;
+    font-weight: 400;
 }
 
 h4 {
@@ -63,6 +63,33 @@ p {
     font-weight: 200;
     font-size: large;
 }
+
+ul {
+    list-style: none;
+    padding: 0px;
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+}
+
+ul li:before {    
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+    content: '*';
+    margin:0 5px 0 -15px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+a {
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+    text-decoration-color: red;
+    color: var(--white);
+
+}
+
 
 
 /* 
