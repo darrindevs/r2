@@ -54,9 +54,9 @@ const Whitepaper = () => {
         </p>
         <h3 className='mb-3 mt-5'>Phase 1: Development</h3>
         <ul>
-          <li className="icon-duotone"><strong>Completed:</strong> Geotechnical Survey, Boundary Survey, Alley Dedication Waiver, Certificate of Compliance, Fire Hydrant Flow Rate Certification</li>
-          <li>02/2022 AMK Design Partnership formed</li>
-          <li>07/01/2022 1140nft Launch</li>
+          <li><strong>Completed:</strong> Geotechnical Survey, Boundary Survey, Alley Dedication Waiver, Certificate of Compliance, Fire Hydrant Flow Rate Certification</li>
+          <li><strong>Feb 2022</strong> AMK Design Partnership formed</li>
+          <li><strong>Summer 2022</strong> 1140nft Launch</li>
           <li><strong>9-12 months</strong> Design, Architecture, and Engineering Phases </li>
           <li><strong>12-18 months</strong> Entitlement and Permitting: Site Plan Approval, Submit Tentative Tract Map, Final Map Approval, Minor Land Division Approval, Record New Lot Lines, Sewage Easement Establishment, Plan Check, Environmental Review, Energy Efficiency Review, Water Mitigation Review, Building Permits issued</li>
           <li><strong>14-18 months</strong> Construction</li>
@@ -76,15 +76,16 @@ const Whitepaper = () => {
         </p>
         <h3 className='mb-3 mt-5'>Area Development / Event Timeline</h3>
         <ul>
-          <li>February 2022 Superbowl LVI</li>
-          <li>November 2022, Metro Crenshaw Line Opening</li>
-          <li>Opening 2023, Lucas Museum of Narrative Arts</li>
-          <li>Opening 2024, Clippers Intuit Dome</li>
-          <li>Summer 2028, Olympic Games</li>
+          <li><strong>Feb 2022</strong> Superbowl LVI</li>
+          <li><strong>Nov 2022</strong> Metro Crenshaw Line Opening</li>
+          <li><strong>2023</strong> Lucas Museum of Narrative Arts</li>
+          <li><strong>2024</strong> Clippers Intuit Dome</li>
+          <li><strong>Summer 2028</strong> Olympic Games</li>
         </ul>
         <h3 className='mb-3 mt-5'>The Location</h3>
         <p>
-        Our parcel is a prime lot in the 90044 zip code. up and coming area of South LA. The site is in an unincorporated,  multifamily, R2 zone. Our lot is approximately 15 miles from Venice Beach, 9 miles from Hermosa Beach,  7 miles from LAX, 7 miles from downtown LA, 6 miles from Crypto.com Arena, 5 miles from USC and the George Lucas Museum of Narrative Arts, 3 miles from SoFi Stadium, the LA Forum and NFL Studios, 3 miles from the LA Clippers new Intuit Dome and 1 mile from an LA Metro station. 
+        Our parcel is in the 90044 zip code. The site is within an unincorporated, multifamily, R2 zone. Centrally located in LA County, our lot is approximately 15 miles from Venice Beach, 9 miles from Hermosa Beach,  7 miles from LAX, 7 miles from downtown LA, 6 miles from Crypto.com Arena, 5 miles from USC and the George Lucas Museum of Narrative Arts, 3 miles from SoFi Stadium, the LA Forum and NFL Studios, 3 miles from the LA Clippers new Intuit Dome and 1 mile from an LA Metro station. 
+
         </p>
         <h3 className='mb-3 mt-5'>Legislation</h3>
         <ul>
