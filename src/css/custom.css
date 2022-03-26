@@ -91,6 +91,10 @@ a {
 
 }
 
+a:hover {
+    color: red;
+}
+
 .vision {
     font-size: 1.75rem !important;
     font-family: 'Roboto Mono';
