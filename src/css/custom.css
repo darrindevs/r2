@@ -45,9 +45,6 @@ h3 {
     font-weight: 400;
 }
 
-h3::before {
-    font-family: "Font Awesome 5 Brands"; content: "\f099";
-}
 
 h4 {
     font-family: 'Roboto Mono';
@@ -303,9 +300,21 @@ a:hover {
   }
 
 
+  /* 
+*********** Icons + Pseudo Elements ***********
+*/
+
+  .ico-location-dot::before {
+    font-family: "Font Awesome 5 Pro"; content: "\f3c5";
+    font-weight: 300;
+}
+
+
 /* 
 *********** Media Queries ***********
 */
+
+
 
  
 /* Small devices (landscape phones, less than 768px) */
