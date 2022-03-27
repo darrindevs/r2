@@ -19,6 +19,7 @@ import Footer from "./footer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 // add custom css folder and file 
 import '../css/custom.css'
+import '../css/timeline.css'
 
 // styling customizarions
 import { Container } from 'react-bootstrap'
