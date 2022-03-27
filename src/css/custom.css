@@ -88,10 +88,18 @@ ul li:before {
     margin:0 5px 0 -15px;
 }
 
+#location ul li:before {    
+
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+    content: '-->';
+    margin:0 5px 0 -15px;
+}
+
 li {
     margin-bottom: 9px;
     font-size: 18px;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 a {
@@ -168,6 +176,9 @@ a:hover {
     
 }
 
+#loc-cal {
+    padding-right: 20px;
+}
 
 
 /* 
@@ -176,18 +187,22 @@ a:hover {
 
 /* http://jsfiddle.net/V8jmR/ */
 /* BC1 dashed lines */
-.bc1 {position:relative;}
-.bc1:before, #content:after, .bc1>:first-child:before, .bc1>:first-child:after {
+#location { 
+    position:relative;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+#location:before, #location:after, #location>:first-child:before, #location>:first-child:after {
     position:absolute;
     width:20px; height: 20px;
     border-color: var(--white); /* or whatever colour */
     border-style: dashed; /* or whatever style */
     content: ' ';
 }
-.bc1:before {top:0;left:0;border-width: 1px 0 0 1px}
-.bc1:after {top:0;right:0;border-width: 1px 1px 0 0}
-.bc1>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
-.bc1>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
+#location:before {top:0;left:0;border-width: 1px 0 0 1px}
+#location:after {top:0;right:0;border-width: 1px 1px 0 0}
+#location>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
+#location>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
 
 
 
