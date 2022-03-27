@@ -13,6 +13,8 @@
 :root {
     --primary: #140d79;
     --white: #ffffff;
+    /*--primary: #7D91BC;
+    --white: #f5f9ff;*/
     --gray: rgb(53, 52, 52);
     
     
@@ -81,6 +83,7 @@ ul li:before {
 li {
     margin-bottom: 9px;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 a {
@@ -101,6 +104,11 @@ a:hover {
     font-weight: 400;
 }
 
+.prime {
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: large;
+}
 
 /* 
 *********** Layout ***********
@@ -140,6 +148,37 @@ a:hover {
 .foo {
     margin-right: 200px;
 }
+
+#box1 {
+    background-color: #130e5c56;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* 
+*********** Border Corners ***********
+*/
+
+/* http://jsfiddle.net/V8jmR/ */
+/* BC1 dashed lines */
+.bc1 {position:relative;}
+.bc1:before, #content:after, .bc1>:first-child:before, .bc1>:first-child:after {
+    position:absolute;
+    width:20px; height: 20px;
+    border-color: var(--white); /* or whatever colour */
+    border-style: dashed; /* or whatever style */
+    content: ' ';
+}
+.bc1:before {top:0;left:0;border-width: 1px 0 0 1px}
+.bc1:after {top:0;right:0;border-width: 1px 1px 0 0}
+.bc1>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
+.bc1>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
+
+
+
+
 /* 
 *********** Navbar Dark ***********
 */
@@ -182,7 +221,13 @@ a:hover {
 */
 
 .btn-outline-primary {
-    border-color: #ffffff;
+    border-color: red;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    border-color: red;
+    background-color: red;
     color: white;
 }
 
@@ -200,6 +245,32 @@ a:hover {
   }
 
 
+  /* 
+*********** Images ***********
+*/
+
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 90%;
+    min-height: 90%
+}
+
+.img-a {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+
 /* 
 *********** Media Queries ***********
 */
@@ -209,8 +280,11 @@ a:hover {
 @media (max-width: 767.98px) { 
     #nav-launch {
         display: none;
- },
+ }
     #col-2 {
+        display: none;
+}
+    .nakunaru {
         display: none;
     }
 }
