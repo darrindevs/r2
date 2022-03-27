@@ -7,12 +7,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 // Step 2: Define your component
-const AboutPage = () => {
+const PartnershipsPage = () => {
   return (
     <Layout>
-        <Seo title="About" />
+        <Seo title="Partnerships" />
       <main>
-        <h1>About</h1>
+        <h1>Partnerships</h1>
       </main>
     </Layout>
     
@@ -20,4 +20,4 @@ const AboutPage = () => {
 }
 
 // Step 3: Export your component
-export default AboutPage
+export default PartnershipsPage
