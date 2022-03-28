@@ -16,8 +16,9 @@ const Ltv = () => (
                 
                 */}
                 <h3>The Long-Term Value NFT</h3>
-                <p className='benefits-p mt-4'>1140nft is a long-term capital project that will reward early investors exponentially. </p>
-                    <p>NFT holders earn points toward 1140DAO every day that they hold the token in their wallet. 1140DAO will provide members with long-term recurring passive income opportunities.</p>
+                <p className='benefits-p mt-4'>1140nft is a long-term capital project that will grow exponentially and reward early investors. </p>
+                    <p>NFT holders earn points toward 1140DAO every day that they hold the token. Our algorthm accounts for both hold time and quantity of tokens held.</p>
+                    <p>1140DAO will provide members with long-term recurring passive income opportunities.</p>
             </Col>
             <Col  id="bennys" className="ps-5" sm={{ span: 5, offset: 0 }}>
                     <ul>

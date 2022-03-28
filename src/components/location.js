@@ -10,7 +10,7 @@ const Location = () => (
                 <div className="mt-3 ms-3">
                     <h3 className="mb-3"><span className="ico-location-dot me-2"></span>Prime Location</h3>
                     <p className="">
-                    1140nft has already purchased <strong>9200 sq ft</strong> of prime real estate within an unincorporated, multifamily, R2 zone in Los Angeles. 
+                    1140nft owns <strong>9200 sq ft</strong> of prime real estate within an unincorporated, multifamily, R2 zone in Los Angeles. 
                     </p>
                     <p>
                     Our lot is centrally located in LA county, minutes from popular destinations.
