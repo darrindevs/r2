@@ -8,7 +8,7 @@ const Location = () => (
       <Row>
             <Col  id="loc-col" lg={{ span: 5, offset: 0 }}>
                 <div className="mt-3 ms-3">
-                    <h3 className="mb-3"><span className="ico-location-dot me-2"></span>Prime Location</h3>
+                    <h3 className="mb-3"><span className="ico-location-dot me-2"></span>High Value Property</h3>
                     <p className="">
                     1140nft owns <strong>9200 sq ft</strong> of prime real estate within an unincorporated, multifamily, R2 zone in Los Angeles. 
                     </p>

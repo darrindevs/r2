@@ -21,8 +21,8 @@ const IndexPage = () => (
     <Hero />
     <HeroImg />
     <Ltv />
-<Location />
-    <Timeline />
+    <Location />
+   
   </Layout>
 )
 
