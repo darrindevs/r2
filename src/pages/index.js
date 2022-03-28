@@ -18,9 +18,9 @@ import Timeline from "../components/timeline"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    {/*<HeroImg />
+    <HeroImg />
     <Ltv />
-<Location />*/}
+<Location />
     <Timeline />
   </Layout>
 )
