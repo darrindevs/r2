@@ -20,9 +20,9 @@ import Cta from "../components/cta"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    {/* <Hero />
+    <Hero />
     <Ltv />
-<Location />*/}
+<Location />
     <Cta />
   </Layout>
 )
