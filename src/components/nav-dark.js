@@ -11,8 +11,9 @@ const NavDark = (
       <Navbar.Collapse className="justify-content-end me-3">
         <Navbar.Text className="text-white ms-3 nav-right">
         <Link className="me-3" to="/about">About</Link>
+        <Link className="me-3" to="/faq">FAQ</Link>
         <Link className="me-3" to="/blog">Blog</Link>
-        <Link className="me-3" to="/partnerships">Partnerships</Link>
+        <Link className="me-3" to="/partnerships">Partners</Link>
         <Link className="me-3" to="/whitepaper">Whitepaper</Link>
         </Navbar.Text>
       </Navbar.Collapse>

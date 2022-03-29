@@ -18,7 +18,7 @@ const Whitepaper = () => {
   <Layout>
     <Seo title="Whitepaper" />
     <div className="container-component mt-5 mb-5">
-    <h2 className='mb-3 mt-3 vision'>The Vision </h2>
+    <h2 className='mb-3 mt-3 vision'>Vision </h2>
         <p>
         1140nft is built on the vision of creating real world value that directly rewards its holders.  1140nft will fund the creation of a small-lot subdivision in Los Angeles. 1140nft currently owns a 9200 sqft lot in a multi-family zone central to prime Los Angeles area attractions. The subdivision will result in multiple saleable lots with multiple rental properties. Furthermore, equity generated from the development will fund additional real estate acquisitions and create cascading financial value for 1140nft holders in perpetuity. What makes 1140nft unique is the real property value that underpins the NFT project. 
         </p>

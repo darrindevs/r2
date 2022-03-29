@@ -173,6 +173,7 @@ a:hover {
     border-left: white solid 1px;
     margin-top: 100px;
 }
+    
 
 #bennys {
     
@@ -193,6 +194,7 @@ a:hover {
     position:relative;
     padding: 40px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 #location:before, #location:after, #location>:first-child:before, #location>:first-child:after {
     position:absolute;
@@ -335,3 +337,4 @@ a:hover {
 #introducing {
     font-size: 40px;
 }
+

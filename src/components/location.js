@@ -4,7 +4,7 @@ import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 
 const Location = () => (
-    <div id="location" className="container-component mt-5 bc1">
+    <div id="location" className="container-component bc1">
       <Row>
             <Col  id="loc-col" lg={{ span: 5, offset: 0 }}>
                 <div className="mt-3 ms-3">
