@@ -11,7 +11,8 @@ import HeroImg from "../components/heroimg"
 //import Box3 from "../components/box3"
 import Ltv from "../components/ltv"
 import Location from "../components/location"
-import Timeline from "../components/timeline"
+//import Timeline from "../components/timeline"
+import Cta from "../components/cta"
 
 
 
@@ -19,9 +20,10 @@ import Timeline from "../components/timeline"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <Hero />
+    {/* <Hero />
     <Ltv />
-    <Location />
+<Location />*/}
+    <Cta />
   </Layout>
 )
 

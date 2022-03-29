@@ -20,7 +20,8 @@ const Horizons = () => (
   <div class="d-flex justify-content-end">
     <div className="">
       <span className="small horizon-text">___________________________</span><br></br>
-      <span className="small horizon-text">Drawn by DW &nbsp;&nbsp;&nbsp; Check by BP</span><br></br>
+      <span className="small horizon-text">+ Drawn by DW</span><br></br>
+      <span className="small horizon-text">+ Checked by BP</span>
      
     </div>
   </div>

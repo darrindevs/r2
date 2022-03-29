@@ -32,7 +32,7 @@ const Location = () => (
                 <li>USC <strong>5 miles</strong></li>
                 <li>George Lucas Museum of Narrative Arts <strong>5 miles</strong></li>
                 <li>LA Forum <strong>3 miles</strong></li>
-                <li>LA lippers Intuit Dome <strong>3 miles</strong></li>
+                <li>LA Clippers Intuit Dome <strong>3 miles</strong></li>
                 <li>Sofi Stadium <strong>3 miles</strong></li>
                 <li>LA Metro Station <strong>1 mile</strong></li>
             </ul>

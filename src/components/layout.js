@@ -63,7 +63,6 @@ import Horizons from "./horizons"
                <Col  className="col-c" lg={{ span: 2, offset: 0 }}>
                 </Col>
                </Row>{/* Row-1 */}
-             
              </Col>
 
              <Col id="col-horizons" lg={{ span: 1, offset: 0 }}>
