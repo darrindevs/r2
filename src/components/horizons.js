@@ -8,29 +8,20 @@ const Horizons = () => (
   <>
   <Row id="sunnyside" className="">
   <div class="d-flex justify-content-end">
-    <div className="d-flex justify-content-start">
-      <h6 className="margin-h-top">Legal Description</h6>
+    <div className="">
+      <span className="small horizon-text">Legal Descrioption</span><br></br>
+      <span className="small horizon-text">___________________________</span><br></br>
+      <span className="small horizon-text">Lot 165</span><br></br>
+      <span className="small horizon-text">Original Sunnyside</span><br></br>
     </div>
   </div>
   </Row>
-  <Row id="sunnyside" className="">
+  <Row id="drawnby" className="">
   <div class="d-flex justify-content-end">
-    <div className="d-flex justify-content-end">
-      <h6 className="margin-h-top">_____________________</h6>
-    </div>
-  </div>
-  </Row>
-  <Row id="sunnyside" className="">
-  <div class="d-flex justify-content-end">
-    <div className="d-flex justify-content-start">
-      <h6 className="margin-h-top">Legal Description</h6>
-    </div>
-  </div>
-  </Row>
-  <Row id="sunnyside" className="">
-  <div class="d-flex justify-content-end">
-    <div className="d-flex justify-content-start">
-      <h6 className="margin-h-top">Legal Description</h6>
+    <div className="">
+      <span className="small horizon-text">___________________________</span><br></br>
+      <span className="small horizon-text">Drawn by DW &nbsp;&nbsp;&nbsp; Check by BP</span><br></br>
+     
     </div>
   </div>
   </Row>
