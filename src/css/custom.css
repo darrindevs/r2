@@ -167,6 +167,7 @@ a:hover {
     margin-right: 200px;
 }
 
+
 #ltv {
     background-color: #130e5c56;
     padding: 40px;
@@ -336,5 +337,9 @@ a:hover {
 
 #introducing {
     font-size: 40px;
+}
+
+#col-horizons {
+    background-color: green;
 }
 

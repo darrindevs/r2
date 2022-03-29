@@ -15,13 +15,13 @@ import Timeline from "../components/timeline"
 
 
 
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Hero />
     <Ltv />
     <Location />
-   
   </Layout>
 )
 
