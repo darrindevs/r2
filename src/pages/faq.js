@@ -24,11 +24,13 @@ const FaqPage = () => {
           </p>
           <h5 className="faq"><strong>How long will the project take?
           </strong></h5>
-          <p className="mt-3"> Building value takes time. This is a real-world capital project that creates new property and equity. This is a complex process that will take multiple years. Profit sharing will begin once construction is complete and will continue for the life of the DAO. That being said, there will be opportunities for investors to realize a return on investment throughout the life of the project.
+          <p className="mt-3"> Building value takes time. This is a real-world capital project that creates new property and equity. This is a complex process that will take multiple years. 
+          </p>
+          <p className="mt-3">Profit sharing will begin once construction is complete and will continue for the life of the DAO. That being said, there will be opportunities for investors to realize a return on investment throughout the life of the project.
           </p>
 
           <h5 className="faq"><strong>Where do I stake my NFT?</strong></h5>
-          <p className="mt-3">You don’t. You have full control to buy and hold, or speculate along the way. As long as you simply hold the NFT in your wallet you will accrue points toward <strong>>1140DAO</strong>. Long term holders will receive the most benefits in <strong>1140DAO</strong>.
+          <p className="mt-3">You don’t. You have full control to buy and hold, or speculate along the way. As long as you simply hold the NFT in your wallet you will accrue points toward <strong>1140DAO</strong>. Long term holders will receive the most benefits in <strong>1140DAO</strong>.
           </p>
 
           <h5 className="faq"><strong>What is 1140DAO?</strong></h5>
