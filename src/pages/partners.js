@@ -32,6 +32,10 @@ const Partners = () => (
           <p>We specialize in web development + design, Web 3 + NFT development, and digital marketing. We love helping clients bring their projects to life.</p>
           <p><a href="https://www.dynamo.dev/" target="blank">Learn more</a>.</p>
         </div>
+        <div id="about" className="container-component mt-5 mb-5">
+          <p>Looking to partner with <span className="eleven-forty">1140nft</span>? Reach out on <a href="https//:twitter.com/1140nft" target="blank">Twitter</a>.</p>
+          <p> </p>
+        </div>
     </main>
   </Layout>
 )
