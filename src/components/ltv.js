@@ -22,9 +22,9 @@ const Ltv = () => (
             </Col>
             <Col  id="bennys" className="ps-5" sm={{ span: 5, offset: 0 }}>
                     <ul>
+                        <li>Limited Supply</li>
                         <li>Innovative Model</li>
                         <li>Real World Value</li>
-                        <li>Limited Supply</li>
                         <li><strong>DAO</strong> Membership</li>
                         <li>Voting & Governance</li>
                         <li>Profit Sharing: Rental Revenue</li>

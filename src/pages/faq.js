@@ -10,9 +10,21 @@ import Seo from "../components/seo"
 const FaqPage = () => {
   return (
     <Layout>
-        <Seo title="About" />
-      <main>
-        <h1>FAQ coming soon</h1>
+        <Seo title="FAQ" />
+        <main>
+        <h2>FAQ</h2>
+        <div id="about" className="container-component mt-5 mb-5">
+          <h5><strong>Why is your NFT so awesome?</strong></h5>
+          <h5 className='mb-4'>Dude. Get in there.</h5>
+          <h5><strong>Why is your NFT so awesome?</strong></h5>
+          <h5 className='mb-4'>Dude. Get in there.</h5>
+          <h5><strong>Why is your NFT so awesome?</strong></h5>
+          <h5 className='mb-4'>Dude. Get in there.</h5>
+          <h5><strong>Why is your NFT so awesome?</strong></h5>
+          <h5 className='mb-4'>Dude. Get in there.</h5>
+          <h5><strong>Why is your NFT so awesome?</strong></h5>
+          <h5 className='mb-4'>Dude. Get in there.</h5>
+          </div>
       </main>
     </Layout>
     
