@@ -20,7 +20,7 @@ const FaqPage = () => {
           </p>
           <p className="mt-3">In the short-term, the low supply will stimulate secondary market sales for those who wish to speculate or trade the NFT. 
           </p>
-          <p className="mt-3"> In the long-term, the limited supply acts as a cap on the number of <strong>1140DAO</strong> members, which makes the DAO exclusive and increases the ROI per member through the profit sharing mechanisms.
+          <p className="mt-3"> In the long-term, the limited supply acts as a cap on the number of <strong>1140DAO</strong> members, which makes the DAO exclusive and increases the return on investment per member through the profit sharing mechanisms.
           </p>
           <h5 className="faq"><strong>How long will the project take?
           </strong></h5>
