@@ -271,6 +271,18 @@ a:hover {
     color: white;
 }
 
+.btn-outline-blue {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+
+.btn-outline-blue:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+
 /* 
 *********** Footer ***********
 */

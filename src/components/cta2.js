@@ -21,7 +21,7 @@ const Cta2 = () => (
                                 <label className="mb-2">Join the newsletter</label>
                                 <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="your email"></input>
                             </div>
-                            <button type="button" className="btn btn-primary mt-2">Let's Go</button>
+                            <button type="button" className="btn btn-outline-blue mt-3">Let's Go</button>
                         </div>
                     </form>
                 </div>
