@@ -53,7 +53,7 @@ import Horizons from "./horizons"
            <div className="container-fluid foo">
            <main>
            <Row id="row-wrapper" className="justify-content-md-center">
-             <Col  id="col-1" lg={{ span: 10, offset: 0 }}>
+             <Col  id="col-1" lg={{ span: 11, offset: 0 }}>
                <Row id="row-1">
                <Col  className="col-a" lg={{ span: 2, offset: 0 }}>
                </Col>
@@ -65,9 +65,7 @@ import Horizons from "./horizons"
                </Row>{/* Row-1 */}
              </Col>
 
-             <Col id="col-horizons" lg={{ span: 1, offset: 0 }}>
-                <Horizons />
-            </Col>
+             
 
              <Col id="col-2" lg={{ span: 1, offset: 0 }}>
               <Marginalia />

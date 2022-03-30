@@ -15,9 +15,7 @@ const Location = () => (
                     <p>
                     The property is centrally located in LA county, minutes from popular destinations.
                     </p>
-                    <div className="mb-3">
-                        <span className="">___________________</span>
-                    </div>
+                    
                 </div>
 
             </Col>

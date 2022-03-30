@@ -24,7 +24,6 @@ const Cta = () => (
                 <div id="" className="d-flex justify-content-center mt-3">
                 <button type="button" className="btn btn-primary mt-2">Follow Us</button>
                 </div>
-            
             </Col>
             <Col  id="value" lg={{ span: 4, offset: 0 }}>
             </Col>
