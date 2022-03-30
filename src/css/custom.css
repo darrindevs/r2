@@ -428,3 +428,10 @@ a:hover {
 #cta-form {
     margin-top: 60px;
 }
+
+#about {
+    background-color: #130e5c56;
+    padding: 40px;
+    border-right: white solid 0px;
+    margin-top: 100px;
+}
