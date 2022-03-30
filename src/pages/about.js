@@ -30,7 +30,7 @@ const AboutPage = () => {
           <p><a href='https//:twitter.com/helloDarrin'>Get in touch.</a></p>
         </div>
         <div id="about" className="container-component mt-5 mb-5">
-          <p>! Bradley and Darrin have known each for <strong>35 years</strong>. (Ask about the <strong>Food Fight</strong>). Follow <strong>1140nft</strong> on <a href='https//:twittercom/1140nft' target='blank'>Twitter</a>.</p>
+          <p>! Bradley and Darrin have known each for <strong>35 years</strong>. (Ask about the <strong>Food Fight</strong>). Follow <strong>1140nft</strong> on <a href='https//:twitter.com/1140nft' target='blank'>Twitter</a>.</p>
           <p> </p>
         </div>
       </main>

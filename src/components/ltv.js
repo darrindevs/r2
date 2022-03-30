@@ -30,6 +30,7 @@ const Ltv = () => (
                         <li>Profit Sharing: Rental Revenue</li>
                         <li>Profit Sharing: Sales Proceeds</li>
                         <li>IRL Property Access</li>
+                        <li>Doxxed Founders</li>
                     </ul>
                 </Col>
         </Row>
