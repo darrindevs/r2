@@ -13,7 +13,7 @@ const NavDark = (
         <Link className="me-3" to="/about">About</Link>
         <Link className="me-3" to="/faq">FAQ</Link>
         <Link className="me-3" to="/blog">Blog</Link>
-        <Link className="me-3" to="/partnerships">Partners</Link>
+        <Link className="me-3" to="/partners">Partners</Link>
         <Link className="me-3" to="/whitepaper">Whitepaper</Link>
         </Navbar.Text>
       </Navbar.Collapse>
