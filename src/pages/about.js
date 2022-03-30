@@ -23,11 +23,15 @@ const AboutPage = () => {
         </div>
         <div id="about" className="container-component mt-5 mb-5">
           <h3 className='mb-3'>Darrin Weyers</h3>
-          <h5 className='mb-3'>Co-Founder &middot; <strong>1140nft</strong></h5>
-          <p>web dude </p>
+          <h5 className='mb-3'>Dev / Co-Founder &middot; <strong>1140nft</strong></h5>
+          <p>The short version is that I ❤️ to make things.</p>
+          <p>The longer version is that for the last 22 years I have been either founding, co-founding or working for Bay Area tech start-ups in the domains of product, marketing, business development, and web technologies. </p>
+          <p>I am super passionate about the potential of Web 3 at a technological, financial and cultural level.  The NFT as funding mechanism + member DAO as a vehicle for investor ROI make <strong>1140nft</strong> a no-brainer project for me to get involved with. </p>
+          <p><a href='https//:twitter.com/helloDarrin'>Get in touch.</a></p>
         </div>
         <div id="about" className="container-component mt-5 mb-5">
-          <p>* Bradley and Darrin have known each for <strong>35 years</strong>.</p>
+          <p>! Bradley and Darrin have known each for <strong>35 years</strong>. (Ask about the <strong>Food Fight</strong>). Follow <strong>1140nft</strong> on <a href='https//:twittercom/1140nft' target='blank'>Twitter</a>.</p>
+          <p> </p>
         </div>
       </main>
     </Layout>
