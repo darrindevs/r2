@@ -9,7 +9,7 @@ const Blog = () => (
     <Seo title="Blog" />
     <main>
         <h2>Blog</h2>
-        <div id="about" className="container-component mt-5 mb-5">
+        <div id="blog" className="container-component mt-5 mb-5">
             <p>The <span className="eleven-forty">1140nft</span> Blog is coming soon.</p>
             <p>In the meantime, follow us on <a href='https://twitter.com/1140nft' target="blank">Twitter</a>.</p>
         </div>

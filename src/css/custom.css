@@ -458,3 +458,7 @@ a:hover {
     border-color: red;
     color: white;
 }
+
+#blog {
+    height: 100vw;
+}
