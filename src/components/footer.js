@@ -2,7 +2,8 @@ import * as React from "react"
 
 const Footer = () => (
     <div className="footer">
-      <p>This is some content in sticky footer</p>
+      <span className="footer-content">© 1140nft 2022   /    </span>
+      <span className="footer-content">Built by <a href="https://dynamo.dev" target="blank">Dynamo</a></span>
     </div>
   );
   

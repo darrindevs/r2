@@ -16,27 +16,29 @@ const FaqPage = () => {
         <div id="about" className="container-component mt-5 mb-5">
           <h5><strong>Why such a limited supply of NFTs?
             </strong></h5>
-          <p className="mt-3">1140nft is limited to a supply of 1140 NFTs. The low supply cap is designed to make 1140DAO attractive as both a short-term and long-term investment.
+          <p className="mt-3">1140nft is limited to a supply of 1140. The supply is designed to limit 1140DAO memberships and make 1140DAO attractive as both a short-term and long-term investment. 
           </p>
-          <p className="mt-3">In the short-term, the low supply will stimulate secondary market sales for those who wish to speculate or trade the NFT. 
-          </p>
-          <p className="mt-3"> In the long-term, the limited supply acts as a cap on the number of <strong>1140DAO</strong> members, which makes the DAO exclusive and increases the return on investment per member through the profit sharing mechanisms.
-          </p>
+          
           <h5 className="faq"><strong>How long will the project take?
           </strong></h5>
-          <p className="mt-3"> Building value takes time. This is a real-world capital project that creates new property and equity. This is a complex process that will take multiple years. 
+          <p className="mt-3"> Building value takes time. This is a subdivision project that creates new property and homes. It’s a complex process that will take up to three years to complete.
+
           </p>
-          <p className="mt-3">Profit sharing will begin once construction is complete and will continue for the life of the DAO. That being said, there will be opportunities for investors to realize a return on investment throughout the life of the project.
-          </p>
+         
 
           <h5 className="faq"><strong>Where do I stake my NFT?</strong></h5>
-          <p className="mt-3">You don’t. You have full control to buy and hold, or speculate along the way. As long as you simply hold the NFT in your wallet you will accrue points toward <strong>1140DAO</strong>. Long term holders will receive the most benefits in <strong>1140DAO</strong>.
+          <p className="mt-3">You don’t. You have full control to buy and hold, or speculate along the way. Long term holders will receive the most benefits in 1140DAO.
           </p>
 
           <h5 className="faq"><strong>What is 1140DAO?</strong></h5>
-          <p className="mt-3">DAO stands for Decentralized Autonomous Organization. <strong>1140DAO</strong> will be essentially an exclusive club of <strong>1140nft</strong> holders. All members of <strong>1140DAO</strong> will have governance and voting rights, profit sharing and access benefits.
+          <p className="mt-3">Our decentralized autonomous organization (DAO) is the mechanism by which we reward our members. 1140DAO will also represent the governing body of 1140nft holders.
+
           </p>
-          <p className="mt-3"><strong>1140DAO</strong> will be established once construction is complete, but points toward the DAO start accruing immediately when an <strong>1140nft</strong> is purchased or traded. 
+          <p className="mt-3">All members of 1140DAO will share governance, voting rights, profits and access benefits. Long term holders will receive the most benefits in 1140DAO.
+          </p>
+
+          <h5 className="faq"><strong>When is 1140DAO?</strong></h5>
+          <p className="mt-3">1140DAO will be implemented once construction is complete, but your points toward the DAO start accruing immediately when an 1140nft is purchased or traded.Long term holders will receive the most benefits in 1140DAO.
           </p>
 
           </div>
