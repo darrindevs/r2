@@ -9,7 +9,7 @@ const Partners = () => (
     <Seo title="Partners" />
     <main>
         <h2>Partners</h2>
-        <div id="about" className="container-component mt-5 mb-5">
+        {/*<div id="about" className="container-component mt-5 mb-5">
           <h3 className='mb-3'>AMK Studio</h3>
           <h5 className='mb-3'>Architecture & Planning &middot; Newport Beach, CA</h5>
           <p>We design distinctive, timeless and cool spaces for awesome people.
@@ -17,7 +17,7 @@ const Partners = () => (
           <p>We are AMK studio, an award-winning, women-owned, architectural and planning firm in Southern California, servicing clients in the Western U.S.</p>
           
           <p><a href="https://www.amkstudio.com/" target="blank">Learn more</a>.</p>
-        </div>
+</div>*/}
         <div id="about" className="container-component mt-5 mb-5">
           <h3 className='mb-3'>Denn Engineers</h3>
           <h5 className='mb-3'>Land Survey & Design &middot; Torrance, CA</h5>
