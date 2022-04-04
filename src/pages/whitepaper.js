@@ -20,13 +20,13 @@ const Whitepaper = () => {
     <div className="container-component mt-5 mb-5">
     <h2 className='mb-3 mt-3 vision'>Vision </h2>
         <p>
-        1140nft is built on the vision of creating real world value that directly rewards its holders.  1140nft will fund the creation of a small-lot subdivision in Los Angeles. 1140nft currently owns a 9200 sqft lot in a multi-family zone central to prime Los Angeles area attractions. The subdivision will result in multiple saleable lots with multiple rental properties. Furthermore, equity generated from the development will fund additional real estate acquisitions and create cascading financial value for 1140nft holders in perpetuity. What makes 1140nft unique is the real property value that underpins the NFT project. 
+        1140nft is built on the vision of creating real world value that directly rewards its holders.  1140nft will fund the creation of a small-lot subdivision in Los Angeles. 1140nft owns a 9200 sqft lot in a multi-family zone central to prime Los Angeles area attractions. The subdivision will result in multiple saleable lots with multiple rental properties. Furthermore, equity generated from the development will fund additional real estate acquisitions and create cascading financial value for 1140nft holders in perpetuity. What makes 1140nft unique is the real property value that underpins the NFT project. 
         </p>
         <h3 className='mb-3 mt-5'>Innovation in the NFT Space </h3>
         <ul>
           <li>1140nft is a real-world real estate development project. This NFT will fund the <strong>creation of physical real estate and homes</strong> in Los Angeles. The project will generate ongoing value in a perennially hot real estate market. </li>
           <li>1140nft actualizes the concept of community in the NFT space because holders will have physical access to the properties. Holders will benefit from access to accommodations for LA area events and attractions.</li>
-          <li>1140nft has an entry price that reflects the existing and potential long-term value of the project. 1140nft is intentionally limited to a supply of 1140 NFTs. This limited supply maximizes the long-term value per holder and provides the benefits of an exclusive investor community. </li>
+          <li>1140nft has an entry price that reflects the existing and potential long-term value of the project. 1140nft is intentionally limited to a supply of 1140 NFTs. This limited supply maximizes the long-term value per holder and provides the benefits of an investor community. </li>
           <li>Because we are backed by existing property, 1140nft holders realize immense value from day one. Our entitlement process is underway.</li>
           <li>1140nft works on a longer time frame than typical NFT projects. Our concept is perfect for igniting both speculative interest and long-term investment.</li>
           <li>1140nft will reward long-term holders with enhanced benefits including passive income and property access.</li>

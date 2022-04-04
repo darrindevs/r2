@@ -16,7 +16,7 @@ const FaqPage = () => {
         <div id="about" className="container-component mt-5 mb-5">
           <h5><strong>Why such a limited supply of NFTs?
             </strong></h5>
-          <p className="mt-3">1140nft is limited to a supply of 1140. The supply is designed to limit 1140DAO memberships and make 1140DAO attractive as both a short-term and long-term investment. 
+          <p className="mt-3">1140nft is limited to a supply of 1140. The supply is designed to limit 1140DAO memberships and make 1140DAO attractive as a short-term and long-term investment. 
           </p>
           
           <h5 className="faq"><strong>How long will the project take?
@@ -38,14 +38,13 @@ const FaqPage = () => {
           </p>
 
           <h5 className="faq"><strong>When is 1140DAO?</strong></h5>
-          <p className="mt-3">1140DAO will be implemented once construction is complete, but your points toward the DAO start accruing immediately when an 1140nft is purchased or traded.Long term holders will receive the most benefits in 1140DAO.
+          <p className="mt-3">1140DAO will be implemented once construction is complete, but your points toward the DAO start accruing immediately when an 1140nft is purchased or traded. Long term holders will receive the most benefits in 1140DAO.
           </p>
 
           </div>
           <div id="about" className="container-component mt-5 mb-5">
-            <p> Got another question? Check out the  <Link className="" to="/whitepaper"> Whitepaper</Link> or hit us up on <a href='https://twitter.com/1140nft'>Twitter</a>.
-
-            </p>
+            <p> Got another question? Check out the  <Link className="" to="/whitepaper"> Whitepaper</Link> or hit us up on Twitter.</p>
+            <p> <button type="button" className="btn btn-red mt-2"><a className="btn-red" href='https://twitter.com/1140nft' target="blank">Let's Talk</a></button></p>
            
           </div>
       </main>

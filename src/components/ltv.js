@@ -25,12 +25,13 @@ const Ltv = () => (
                         <li>Limited Supply</li>
                         <li>Innovative Model</li>
                         <li>Real World Value</li>
-                        <li><strong>DAO</strong> Membership</li>
+                        <li>1140DAO Membership</li>
                         <li>Voting & Governance</li>
                         <li>Profit Sharing: Rental Revenue</li>
                         <li>Profit Sharing: Sales Proceeds</li>
                         <li>IRL Property Access</li>
                         <li>Doxxed Founders</li>
+                        <li>Doxxed Permits</li>
                     </ul>
                 </Col>
         </Row>

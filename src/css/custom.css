@@ -12,6 +12,7 @@
 
 :root {
     --primary: #140d79;
+    --secondary: #130e5c56;
     --white: #ffffff;
     /*--primary: #7D91BC;
     --white: #f5f9ff;*/
@@ -123,7 +124,7 @@ a:hover {
 }
 
 .navlink:hover {
-    color: red;
+    color: red !important;
 }
 
 .vision {
@@ -179,7 +180,7 @@ a:hover {
 
 
 #ltv {
-    background-color: #130e5c56;
+    background-color: var(--secondary);
     padding: 40px;
     border-left: white solid 1px;
     border-bottom: white solid 0px;
@@ -457,6 +458,14 @@ a:hover {
     background-color: red;
     border-color: red;
     color: white;
+    font-weight: bold;
+}
+
+.btn-red:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-weight: bold;
 }
 
 #blog {

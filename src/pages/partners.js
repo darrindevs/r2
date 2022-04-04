@@ -33,8 +33,8 @@ const Partners = () => (
           <p><a href="https://www.dynamo.dev/" target="blank">Learn more</a>.</p>
         </div>
         <div id="about" className="container-component mt-5 mb-5">
-          <p>Looking to partner with <span className="eleven-forty">1140nft</span>? Reach out on <a href="https//:twitter.com/1140nft" target="blank">Twitter</a>.</p>
-          <p> </p>
+          <p>Looking to partner with <span className="eleven-forty">1140nft</span>? </p>
+          <p> <button type="button" className="btn btn-red mt-2"><a className="btn-red" href='https://twitter.com/1140nft' target="blank">Get In Touch</a></button></p>
         </div>
     </main>
   </Layout>
