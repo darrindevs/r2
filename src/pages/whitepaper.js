@@ -26,7 +26,8 @@ const Whitepaper = () => {
         <ul>
           <li><strong>1140nft</strong> is a real-world real estate development project. This NFT will fund the <strong>creation of physical real estate and homes</strong> in Los Angeles. The project will generate ongoing value in a perennially hot real estate market. </li>
           <li><strong>1140nft</strong> actualizes the concept of community in the NFT space because holders will have physical access to the properties. Holders will benefit from access to accommodations for LA area events and attractions.</li>
-          <li><strong>1140nft</strong> has an entry price that reflects the existing and potential long-term value of the project. <strong>1140nft</strong> is intentionally limited to a supply of 1140 NFTs. This limited supply maximizes the long-term value per holder and provides the benefits of an investor community. </li>
+          <li><strong>1140nft</strong> has an entry price that reflects the intrinsic and potential long-term value of the project. <strong>1140nft</strong> is intentionally limited to a supply of 1140. Limited supply maximizes the benefits per holder and provides long-term value to an exclusive investor community.
+ </li>
           <li>Because we are backed by existing property, <strong>1140nft</strong> holders realize immense value from day one. Our entitlement process is underway.</li>
           <li><strong>1140nft</strong> works on a longer time frame than typical NFT projects. Our concept is perfect for igniting both speculative interest and long-term investment.</li>
           <li><strong>1140nft</strong> will reward long-term holders with enhanced benefits including passive income and property access.</li>
@@ -72,7 +73,7 @@ const Whitepaper = () => {
         </p>
         <h3 className='mb-3 mt-5'>Phase 3: Taking Profits</h3>
         <p>
-        We will generate substantial equity by completing the phase one development. Our equity will be used to fund strategic purchases and development of additional properties. Royalties from sales on the secondary market will also be used for this purpose. We intend to accrue several properties and create a positive feedback loop whereby purchasing fuels purchasing power, which fuels further purchasing. 
+        The 2028 Olympic Games will be a significant real estate market catalyst and we expect to leverage the event to maximize profits for members. 1140DAO will select properties to be sold during Phase 3. Sales proceeds will be distributed among members and governed by 1140DAO.
         </p>
         <h3 className='mb-3 mt-5'>Area Development / Event Timeline</h3>
         <ul>

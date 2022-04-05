@@ -21,9 +21,12 @@ const FaqPage = () => {
           
           <h5 className="faq"><strong>How long will the project take?
           </strong></h5>
-          <p className="mt-3"> Building value takes time. This is a subdivision project that creates new property and homes. It’s a complex process that will take up to three years to complete.
+          <p className="mt-3"> Building value takes time. This is a subdivision project that creates new property and homes. It’s a complex process that will take up to three years to complete.</p>
 
-          </p>
+          <h5 className="faq"><strong>Why isn’t your project on Fundrise or other real estate investment platforms?
+
+          </strong></h5>
+          <p className="mt-3"> Real estate investment platforms are great, but they’re not us. We love NFTs. We’re going all in on web 3.0. The breakthrough is the speculative opportunity the project brings to traditional real estate development benefits. We want to start something new.</p>
          
 
           <h5 className="faq"><strong>Where do I stake my NFT?</strong></h5>
