@@ -303,7 +303,7 @@ body > .footer {
 .footer{
     margin-left: 60px;
     background-color: var(--primary);
-    /*position: fixed;*/
+    position: fixed;
     border-top: #ffffff 1px solid;
     left: 0;
     width: 100%;
