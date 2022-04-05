@@ -20,19 +20,20 @@ const Whitepaper = () => {
     <div className="container-component mt-5 mb-5">
     <h2 className='mb-3 mt-3 vision'>Vision </h2>
         <p>
-        1140nft is built on the vision of creating real world value that directly rewards its holders.  1140nft will fund the creation of a small-lot subdivision in Los Angeles. 1140nft currently owns a 9200 sqft lot in a multi-family zone central to prime Los Angeles area attractions. The subdivision will result in multiple saleable lots with multiple rental properties. Furthermore, equity generated from the development will fund additional real estate acquisitions and create cascading financial value for 1140nft holders in perpetuity. What makes 1140nft unique is the real property value that underpins the NFT project. 
+        <strong>1140nft</strong> is built on the vision of creating real world value that directly rewards its holders.  <strong>1140nft</strong> will fund the creation of a small-lot subdivision in Los Angeles. <strong>1140nft</strong> owns a 9200 sqft lot in a multi-family zone central to prime Los Angeles area attractions. The subdivision will result in multiple saleable lots with multiple rental properties. Furthermore, equity generated from the development will fund additional real estate acquisitions and create cascading financial value for <strong>1140nft</strong> holders in perpetuity. What makes <strong>1140nft</strong> unique is the real property value that underpins the NFT project. 
         </p>
         <h3 className='mb-3 mt-5'>Innovation in the NFT Space </h3>
         <ul>
-          <li>1140nft is a real-world real estate development project. This NFT will fund the <strong>creation of physical real estate and homes</strong> in Los Angeles. The project will generate ongoing value in a perennially hot real estate market. </li>
-          <li>1140nft actualizes the concept of community in the NFT space because holders will have physical access to the properties. Holders will benefit from access to accommodations for LA area events and attractions.</li>
-          <li>1140nft has an entry price that reflects the existing and potential long-term value of the project. 1140nft is intentionally limited to a supply of 1140 NFTs. This limited supply maximizes the long-term value per holder and provides the benefits of an exclusive investor community. </li>
-          <li>Because we are backed by existing property, 1140nft holders realize immense value from day one. Our entitlement process is underway.</li>
-          <li>1140nft works on a longer time frame than typical NFT projects. Our concept is perfect for igniting both speculative interest and long-term investment.</li>
-          <li>1140nft will reward long-term holders with enhanced benefits including passive income and property access.</li>
-          <li>1140nft is a transparent project, with public permits, development milestones, and doxxed founders. </li>
+          <li><strong>1140nft</strong> is a real-world real estate development project. This NFT will fund the <strong>creation of physical real estate and homes</strong> in Los Angeles. The project will generate ongoing value in a perennially hot real estate market. </li>
+          <li><strong>1140nft</strong> actualizes the concept of community in the NFT space because holders will have physical access to the properties. Holders will benefit from access to accommodations for LA area events and attractions.</li>
+          <li><strong>1140nft</strong> has an entry price that reflects the intrinsic and potential long-term value of the project. <strong>1140nft</strong> is intentionally limited to a supply of 1140. Limited supply maximizes the benefits per holder and provides long-term value to an exclusive investor community.
+ </li>
+          <li>Because we are backed by existing property, <strong>1140nft</strong> holders realize immense value from day one. Our entitlement process is underway.</li>
+          <li><strong>1140nft</strong> works on a longer time frame than typical NFT projects. Our concept is perfect for igniting both speculative interest and long-term investment.</li>
+          <li><strong>1140nft</strong> will reward long-term holders with enhanced benefits including passive income and property access.</li>
+          <li><strong>1140nft</strong> is a transparent project, with public permits, development milestones, and doxxed founders. </li>
         </ul>
-        <h3 className='mb-3 mt-5'>1140nft Holder Benefits</h3>
+        <h3 className='mb-3 mt-5'><strong>1140nft</strong> Holder Benefits</h3>
         <ul>
           <li>Built-in scarcity with a limited supply of 1140 tokens</li>
           <li>1140DAO membership upon completion of Phase 1</li>
@@ -47,7 +48,7 @@ const Whitepaper = () => {
         1140DAO provides multiple benefits to loyal NFT holders. DAO members will share  rental profits, resale profits, voting rights, and property access for accommodation. 1140DAO launch is contingent upon construction completion.
         </p>
         <p>
-        Holders will be awarded points towards the DAO from day one and as long as they hold 1140nft. Points will be tracked on a tiered leaderboard. The longer 1140nft is held, the more points the holder will accrue. Points towards 1140DAO status are calculated every thirty days. DAO points are a composite score which quantifies two metrics: token hold time and quantity of tokens held. Our algorithm will also account for variations in token quantity within every thirty day period. 60% of the points are based on hold time. 40% of the points are based on the quantity of 1140nfts held. More points equals greater status in 1140DAO.
+        Holders will be awarded points towards the DAO from day one and as long as they hold 1140nft. Points will be tracked on a tiered leaderboard. The longer <strong>1140nft</strong> is held, the more points the holder will accrue. Points towards 1140DAO status are calculated every thirty days. DAO points are a composite score which quantifies two metrics: token hold time and quantity of tokens held. Our algorithm will also account for variations in token quantity within every thirty day period. 60% of the points are based on hold time. 40% of the points are based on the quantity of 1140nfts held. More points equals greater status in 1140DAO.
         </p>
         <p>
         Properties will be used to generate both long and short term rental income. Rental revenue will be distributed to DAO members as recurring, passive income. Properties will also be used for members to access accommodation for LA area events. 
@@ -68,11 +69,11 @@ const Whitepaper = () => {
         We will generate substantial equity by completing the phase one development. Our equity will be used to fund strategic purchases and development of additional properties. Royalties from sales on the secondary market will also be used for this purpose. We intend to accrue several properties and create a positive feedback loop whereby purchasing fuels purchasing power, which fuels further purchasing. 
         </p>
         <p>
-        The properties we acquire will adhere to our strict criteria that focus on profits. We will maximize profits by maximizing density. Thus, we intend to first purchase throughout the unincorporated areas of LA county.
+        The properties we acquire will adhere to our strict criteria that focus on profits. We will maximize profits by maximizing density. We intend to first purchase throughout the unincorporated areas of LA county.
         </p>
         <h3 className='mb-3 mt-5'>Phase 3: Taking Profits</h3>
         <p>
-        We will generate substantial equity by completing the phase one development. Our equity will be used to fund strategic purchases and development of additional properties. Royalties from sales on the secondary market will also be used for this purpose. We intend to accrue several properties and create a positive feedback loop whereby purchasing fuels purchasing power, which fuels further purchasing. 
+        The 2028 Olympic Games will be a significant real estate market catalyst and we expect to leverage the event to maximize profits for members. 1140DAO will select properties to be sold during Phase 3. Sales proceeds will be distributed among members and governed by 1140DAO.
         </p>
         <h3 className='mb-3 mt-5'>Area Development / Event Timeline</h3>
         <ul>

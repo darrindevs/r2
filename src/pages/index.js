@@ -12,7 +12,7 @@ import HeroImg from "../components/heroimg"
 import Ltv from "../components/ltv"
 import Location from "../components/location"
 //import Timeline from "../components/timeline"
-import Cta from "../components/cta"
+import Cta2 from "../components/cta2"
 
 
 
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <Hero />
     <Ltv />
 <Location />
-    <Cta />
+    <Cta2 />
   </Layout>
 )
 

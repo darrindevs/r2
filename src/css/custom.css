@@ -12,6 +12,7 @@
 
 :root {
     --primary: #140d79;
+    --secondary: #130e5c56;
     --white: #ffffff;
     /*--primary: #7D91BC;
     --white: #f5f9ff;*/
@@ -20,9 +21,10 @@
     
   }
 
-body {
+html, body {
     background-color: var(--primary);
     color: var(--white);
+    height: 100%;
 }
 
 /* 
@@ -48,7 +50,7 @@ h3 {
 
 h4 {
     font-family: 'Roboto Mono';
-    font-weight: 900;
+    font-weight: 300;
 }
 
 h5 {
@@ -66,6 +68,12 @@ p {
     font-family: 'Roboto Mono';
     font-weight: 200;
     font-size: large;
+}
+
+label {
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+    font-size: 14px;
 }
 
 ul {
@@ -114,6 +122,10 @@ a {
 
 a:hover {
     color: red;
+}
+
+.navlink:hover {
+    color: red !important;
 }
 
 .vision {
@@ -169,9 +181,10 @@ a:hover {
 
 
 #ltv {
-    background-color: #130e5c56;
+    background-color: var(--secondary);
     padding: 40px;
     border-left: white solid 1px;
+    border-bottom: white solid 0px;
     margin-top: 100px;
 }
     
@@ -201,7 +214,7 @@ a:hover {
     position:absolute;
     width:20px; height: 20px;
     border-color: var(--white); /* or whatever colour */
-    border-style: dashed; /* or whatever style */
+    border-style: solid; /* or whatever style */
     content: ' ';
 }
 #location:before {top:0;left:0;border-width: 1px 0 0 1px}
@@ -264,17 +277,37 @@ a:hover {
     color: white;
 }
 
+.btn-outline-blue {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+
+.btn-outline-blue:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+
 /* 
 *********** Footer ***********
 */
+
+/* https://css-tricks.com/a-clever-sticky-footer-technique/ */ 
+
+body > .footer {
+    position: sticky;
+    top: 100vh;
+  }
+
 .footer{
     margin-left: 60px;
     background-color: var(--primary);
     /*position: fixed;*/
     border-top: #ffffff 1px solid;
-    bottom: 0;
     left: 0;
     width: 100%;
+    bottom:0;
   }
 
 
@@ -322,6 +355,21 @@ a:hover {
 
  
 /* Small devices (landscape phones, less than 768px) */
+
+/* Mobile View */
+@media (min-width: 992px) { 
+    .chiisai {
+        display: none;
+ }
+}
+
+/* Desktop View */
+@media (max-width: 992px) { 
+    .ookii {
+        display: none;
+ }
+}
+
 @media (max-width: 767.98px) { 
     #nav-launch {
         display: none;
@@ -372,9 +420,10 @@ a:hover {
         -webkit-box-sizing: border-box;
         width: 100%;
         height: 100%;
-        border-top: 1px solid white;
-        border-right: 1px dashed white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
         margin-left: 10px;
+        padding: 40px;
 }
 
 #arrow-down {
@@ -396,4 +445,55 @@ a:hover {
         border-bottom: 1px solid white;
        
         
+}
+
+#cta2 {
+    background-color: #130e5c56;
+    padding: 40px;
+    border-right: white solid 0px;
+    margin-top: 100px;
+}
+
+#cta-form {
+    margin-top: 60px;
+}
+
+#about {
+    background-color: #130e5c56;
+    padding: 40px;
+    border-right: white solid 0px;
+    margin-top: 100px;
+}
+
+
+.faq {
+    margin-top: 30px;
+}
+
+.eleven-forty {
+    font-weight: 400;
+}
+
+.mg-spacer {
+    margin-top: 40px;
+}
+
+.btn-red {
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-red:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#blog {
+    height: 100vw;
+    padding-bottom: 800px;
+   
 }
