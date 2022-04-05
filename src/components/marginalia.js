@@ -7,7 +7,7 @@ const Marginalia = () => (
    <h6 className="mt-5 marginalia">
      <span className="">1140 W 106th St., Los Angeles, CA 90044 </span>
      <span className="mg-spacer"> * 9200 sqft  &middot; Permit #3333 </span>
-     <span className="mg-spacer"> * Lot 163, Original Sunnyside </span>
+    {/*} <span className="mg-spacer"> * Lot 163, Original Sunnyside </span> */}
     {/*<span className="mg-spacer"> * M.B. 7-171 &middot; APN 6060-015-020 </span>
     <span className="mg-spacer"> * Drawn by DW &middot; Check by BP </span>
 <span className="mg-spacer"> * Feb 10, 2022 </span>*/}

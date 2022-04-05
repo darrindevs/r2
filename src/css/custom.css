@@ -21,9 +21,10 @@
     
   }
 
-body {
+html, body {
     background-color: var(--primary);
     color: var(--white);
+    height: 100%;
 }
 
 /* 
@@ -291,6 +292,14 @@ a:hover {
 /* 
 *********** Footer ***********
 */
+
+/* https://css-tricks.com/a-clever-sticky-footer-technique/ */ 
+
+body > .footer {
+    position: sticky;
+    top: 100vh;
+  }
+
 .footer{
     margin-left: 60px;
     background-color: var(--primary);
@@ -346,6 +355,21 @@ a:hover {
 
  
 /* Small devices (landscape phones, less than 768px) */
+
+/* Mobile View */
+@media (min-width: 992px) { 
+    .chiisai {
+        display: none;
+ }
+}
+
+/* Desktop View */
+@media (max-width: 992px) { 
+    .ookii {
+        display: none;
+ }
+}
+
 @media (max-width: 767.98px) { 
     #nav-launch {
         display: none;
@@ -470,4 +494,6 @@ a:hover {
 
 #blog {
     height: 100vw;
+    padding-bottom: 800px;
+   
 }

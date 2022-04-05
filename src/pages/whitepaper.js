@@ -69,7 +69,7 @@ const Whitepaper = () => {
         We will generate substantial equity by completing the phase one development. Our equity will be used to fund strategic purchases and development of additional properties. Royalties from sales on the secondary market will also be used for this purpose. We intend to accrue several properties and create a positive feedback loop whereby purchasing fuels purchasing power, which fuels further purchasing. 
         </p>
         <p>
-        The properties we acquire will adhere to our strict criteria that focus on profits. We will maximize profits by maximizing density. Thus, we intend to first purchase throughout the unincorporated areas of LA county.
+        The properties we acquire will adhere to our strict criteria that focus on profits. We will maximize profits by maximizing density. We intend to first purchase throughout the unincorporated areas of LA county.
         </p>
         <h3 className='mb-3 mt-5'>Phase 3: Taking Profits</h3>
         <p>
