@@ -48,5 +48,12 @@ module.exports = {
         //display: 'swap'
       //},
     //}, 
+    // custom add - clicky https://www.skypack.dev/view/gatsby-plugin-clicky
+    {
+      resolve: `gatsby-plugin-clicky`,
+      options: {
+        siteId: '101360903'
+      }
+    }
   ],
 }
