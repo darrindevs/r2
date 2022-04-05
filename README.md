@@ -5,3 +5,4 @@
 - Bootstrapped with Gatsby Starter + Bootstrap React 
 - removed Font Awesome due to deploy fail 
 - added formspree
+- added clicky
