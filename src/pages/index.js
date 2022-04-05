@@ -13,6 +13,7 @@ import Ltv from "../components/ltv"
 import Location from "../components/location"
 //import Timeline from "../components/timeline"
 import Cta2 from "../components/cta2"
+import Formspree from "../components/formspree"
 
 
 

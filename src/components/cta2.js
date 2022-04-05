@@ -18,10 +18,15 @@ const Cta2 = () => (
                     <form>
                         <div id="form-email" class="form-row">
                             <div class="col-auto">
+                                <form
+                                action="https://formspree.io/f/xknyzyvy"
+                                 method="POST"
+                                >
                                 <label className="mb-2">Join the newsletter</label>
-                                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="your email"></input>
+                                <input type="email" name="email" class="form-control mb-2" id="inlineFormInput" placeholder="your email" required></input>
+                                <button type="submit" className="btn btn-red mt-3">Let's Go</button>
+                                </form>
                             </div>
-                            <button type="button" className="btn btn-red mt-3">Let's Go</button>
                         </div>
                     </form>
                 </div>

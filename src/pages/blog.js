@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Blog = () => (
+const BlogPage = () => (
   <Layout>
     <Seo title="Blog" />
     <main>
@@ -18,4 +18,4 @@ const Blog = () => (
   </Layout>
 )
 
-export default Blog
+export default BlogPage
