@@ -16,7 +16,7 @@ const FaqPage = () => {
         <div id="about" className="container-component mt-5 mb-5">
           <h5><strong>Why such a limited supply of NFTs?
             </strong></h5>
-          <p className="mt-3">1140nft is limited to a supply of 1140. The supply is designed to limit 1140DAO memberships and make 1140DAO attractive as a short-term and long-term investment. 
+          <p className="mt-3"><strong>1140nft</strong> is limited to a supply of 1140. The supply is designed to limit 1140DAO memberships and make 1140DAO attractive as a short-term and long-term investment. 
           </p>
           
           <h5 className="faq"><strong>How long will the project take?
@@ -31,7 +31,7 @@ const FaqPage = () => {
           </p>
 
           <h5 className="faq"><strong>What is 1140DAO?</strong></h5>
-          <p className="mt-3">Our decentralized autonomous organization (DAO) is the mechanism by which we reward our members. 1140DAO will also represent the governing body of 1140nft holders.
+          <p className="mt-3">Our decentralized autonomous organization (DAO) is the mechanism by which we reward our members. 1140DAO will also represent the governing body of <strong>1140nft</strong> holders.
 
           </p>
           <p className="mt-3">All members of 1140DAO will share governance, voting rights, profits and access benefits. Long term holders will receive the most benefits in 1140DAO.

@@ -9,7 +9,7 @@ const Cta2 = () => (
         <Row>
             <Col  id="value" className="pe-5" lg={{ span: 7, offset: 0 }}>
             <h3>Early Access</h3>
-            <span>______________________________________________</span>
+            <span>______________________________________</span>
                  <p className="mt-3"><strong>1140nft</strong> will be launching soon. Supply is limited to 1140 total NFTs. Subscribe to our newsletter to get notified of <strong>early access</strong> and more.</p>
                  
             </Col>
