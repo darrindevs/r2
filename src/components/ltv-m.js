@@ -20,7 +20,7 @@ const LtvM = () => (
                     <p>NFT holders earn points toward 1140DAO every day. Our algorithm accounts for both hold time and quantity of tokens held. More points equals a greater share of DAO benefits.</p>
                     <p>1140DAO rewards members with recurring passive income and long term payouts.</p>
             </Col>
-            <Col  id="bennys" className="ps-5" sm={{ span: 5, offset: 0 }}>
+            <Col  id="bennys" className="ps-4 pt-5" sm={{ span: 5, offset: 0 }}>
                     <ul>
                         <li>Limited Supply</li>
                         <li>Innovative Model</li>
