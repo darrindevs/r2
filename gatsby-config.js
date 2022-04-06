@@ -28,8 +28,10 @@ module.exports = {
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
+        // https://flaviocopes.com/gatsby-change-favicon/
+        // https://favicon.io/ 
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/key-16.png`, // This path is relative to the root of the site.
           
       },
     },
