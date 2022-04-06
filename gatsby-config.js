@@ -5,6 +5,7 @@ module.exports = {
     Real Estate Development`,
     author: `Dynamo`,
     siteUrl: `https://140nft.com`,
+    version: `1.0.1`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
