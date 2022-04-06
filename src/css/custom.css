@@ -98,11 +98,11 @@ ul li:before {
     margin:0 5px 0 -15px;
 }
 
-#location ul li:before {    
+#location-m ul li:before {    
 
     font-family: 'Roboto Mono';
     font-weight: 200;
-    content: '-->';
+    content: '->';
     margin:0 5px 0 -15px;
 }
 
@@ -179,6 +179,17 @@ a:hover {
     margin-right: 200px;
 }
 
+#hero-m {
+
+}
+
+.h1-m {
+    font-size: 66px;
+}
+
+.tagline-m {
+    font-size: 24px;
+}
 
 #ltv {
     background-color: var(--secondary);
@@ -190,8 +201,8 @@ a:hover {
 
 #ltv-m {
     background-color: var(--secondary);
-    padding: 10px;
-    border-left: white solid 0px;
+    padding: 20px;
+    border-left: white solid 1px;
     border-bottom: white solid 0px;
     margin-top: 100px;
 }
@@ -229,6 +240,15 @@ a:hover {
 #location:after {top:0;right:0;border-width: 1px 1px 0 0}
 #location>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
 #location>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
+
+
+/* Mobile View */
+#location-m { 
+    position:relative;
+    border-top: white solid 1px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
 
 
 
@@ -355,47 +375,6 @@ body > .footer {
 }
 
 
-/* 
-*********** Media Queries ***********
-*/
-
-
-
- 
-/* Small devices (landscape phones, less than 768px) */
-
-/* Desktop View */
-@media (min-width: 992px) { 
-    .chiisai {
-        display: none;
- }
- #ltv-m {
-    display: none;
-}
-}
-
-/* Mobile View View */
-@media (max-width: 992px) { 
-    .ookii {
-        display: none;
- }
-    #ltv {
-        display: none;
-    }
-    
-}
-
-@media (max-width: 767.98px) { 
-    #nav-launch {
-        display: none;
- }
-    #col-2 {
-        display: none;
-}
-    .nakunaru {
-        display: none;
-    }
-}
 
 
 /* 
@@ -469,6 +448,13 @@ body > .footer {
     margin-top: 100px;
 }
 
+#cta-m {
+    background-color: #130e5c56;
+    padding: 20px;
+    border-right: white solid 0px;
+    margin-top: 100px;
+}
+
 #cta-form {
     margin-top: 60px;
 }
@@ -511,4 +497,45 @@ body > .footer {
     height: 100vw;
     padding-bottom: 800px;
    
+}
+
+/* 
+*********** Media Queries ***********
+*/
+
+/* Small devices (landscape phones, less than 768px) */
+
+/* Desktop View */
+@media (min-width: 768px) { 
+    .chiisai {
+        display: none;
+ }
+    #hero-m, #ltv-m, #location-m, #cta-m {
+    display: none;
+}
+}
+
+/* Mobile View View */
+@media (max-width: 768px) { 
+    .ookii {
+        display: none;
+ }
+    #hero, #ltv, #location, #cta2 {
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width: 767.98px) { 
+    #nav-launch {
+        display: none;
+ }
+    #col-2 {
+        display: none;
+}
+    .nakunaru {
+        display: none;
+    }
 }
