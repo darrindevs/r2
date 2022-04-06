@@ -179,6 +179,17 @@ a:hover {
     margin-right: 200px;
 }
 
+#hero-m {
+
+}
+
+.h1-m {
+    font-size: 66px;
+}
+
+.tagline-m {
+    font-size: 24px;
+}
 
 #ltv {
     background-color: var(--secondary);
@@ -437,6 +448,13 @@ body > .footer {
     margin-top: 100px;
 }
 
+#cta-m {
+    background-color: #130e5c56;
+    padding: 20px;
+    border-right: white solid 0px;
+    margin-top: 100px;
+}
+
 #cta-form {
     margin-top: 60px;
 }
@@ -488,21 +506,21 @@ body > .footer {
 /* Small devices (landscape phones, less than 768px) */
 
 /* Desktop View */
-@media (min-width: 992px) { 
+@media (min-width: 768px) { 
     .chiisai {
         display: none;
  }
-    #ltv-m, #location-m {
+    #hero-m, #ltv-m, #location-m, #cta-m {
     display: none;
 }
 }
 
 /* Mobile View View */
-@media (max-width: 992px) { 
+@media (max-width: 768px) { 
     .ookii {
         display: none;
  }
-    #ltv, #location {
+    #hero, #ltv, #location, #cta2 {
         display: none;
     }
     
