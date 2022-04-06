@@ -10,6 +10,7 @@ import HeroImg from "../components/heroimg"
 //import Box2 from "../components/box2"
 //import Box3 from "../components/box3"
 import Ltv from "../components/ltv"
+import LtvM from "../components/ltv-m"
 import Location from "../components/location"
 //import Timeline from "../components/timeline"
 import Cta2 from "../components/cta2"
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Hero />
     <Ltv />
+    <LtvM />
 <Location />
     <Cta2 />
   </Layout>

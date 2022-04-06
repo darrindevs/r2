@@ -187,6 +187,14 @@ a:hover {
     border-bottom: white solid 0px;
     margin-top: 100px;
 }
+
+#ltv-m {
+    background-color: var(--secondary);
+    padding-left: 10px;
+    border-left: white solid 0px;
+    border-bottom: white solid 0px;
+    margin-top: 100px;
+}
     
 
 #bennys {
@@ -303,7 +311,7 @@ body > .footer {
 .footer{
     margin-left: 60px;
     background-color: var(--primary);
-    position: fixed;
+    *position: fixed;
     border-top: #ffffff 1px solid;
     left: 0;
     width: 100%;
@@ -356,18 +364,22 @@ body > .footer {
  
 /* Small devices (landscape phones, less than 768px) */
 
-/* Mobile View */
+/* Desktop View */
 @media (min-width: 992px) { 
     .chiisai {
         display: none;
  }
+ #ltv-m {
+    display: none;
+}
 }
 
-/* Desktop View */
+/* Mobile View View */
 @media (max-width: 992px) { 
     .ookii {
         display: none;
  }
+    
 }
 
 @media (max-width: 767.98px) { 
