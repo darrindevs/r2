@@ -12,7 +12,7 @@ const BlogPage = () => (
         <p><i>April 18, 2022</i></p>
         <h4 className="pb-3 pt-2">Too Small to Succeed</h4>
         <p>
-          A little more than halfway through the meeting the banker hit me with the news. "It makes sense to develop this property, but it doesn't make sense for you to develop this property." He added: "The bank will not let you tear down their asset. Even if you have a better idea. Did you know that?" I didn't. So I owned the house and land, but I wouldn't be allowed to develop it.
+          A little more than halfway through the meeting the banker hit me with the news. "It makes sense to develop this property, but it doesn't make sense for <u><i>you</i></u> to develop this property." He added: "The bank will not let you tear down their asset. Even if you have a better idea. Did you know that?" I didn't. So I owned the house and land, but I wouldn't be allowed to develop it.
         </p>
         <p>
         Apparently a great idea was no match for the hurdles of traditional financing.
@@ -49,7 +49,7 @@ const BlogPage = () => (
         <p>
         <strong>1140nft is launching soon</strong>. Follow us on <a href="https://twitter.com/1140nft" target="blank">Twitter</a> to find out more.
         </p>
-        <p className="mb-5">By Bradley Pierce · Creator / Co-Founder</p>
+        <p className="mt-5 mb-5">By Bradley Pierce · Creator / Co-Founder</p>
         
     </main>
   </Layout>
