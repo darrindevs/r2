@@ -12,7 +12,7 @@
 
 :root {
     --primary: #140d79;
-    --secondary: #130e5c56;
+    --secondary: #130d6f;
     --white: #ffffff;
     /*--primary: #7D91BC;
     --white: #f5f9ff;*/
@@ -496,6 +496,28 @@ body > .footer {
 #blog {
     height: 100vw;
     padding-bottom: 800px;
+   
+}
+
+.box-blue {
+    background-color: #130D6F;
+    padding-left: 40px;
+   
+}
+
+.box-null {
+    
+    padding-left: 40px;
+   
+}
+
+.box-timeline {
+    border-left: white solid 1px;
+    margin-left: 20px;
+    
+}
+
+.img-distro {
    
 }
 

@@ -19,7 +19,8 @@ import * as React from "react"
  import 'bootstrap/dist/css/bootstrap.min.css'
  // add custom css folder and file 
  import '../css/custom.css'
- import '../css/timeline.css'
+ //import '../css/timeline.css'
+ import '../css/timeline-left.css'
  
  // styling customizarions
  import { Container } from 'react-bootstrap'
