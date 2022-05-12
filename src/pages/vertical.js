@@ -8,6 +8,12 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+//import { Doughnut } from 'react-chartjs-2'
+
+//import PieChart from "../components/PieChart"
+import Doughnut from "../components/doughnut"
+//import PieChart from '../components/PieChart'
+import PieChart from "../components/piechart"
 
 // Step 2: Define your component
 const VerticalPage = () => {
@@ -125,12 +131,17 @@ const VerticalPage = () => {
         </Row>
     </div>
      {/* Row CTA */}
-     <div id="launch-cta" className="bg-info">
+     <div id="launch-cta" className="box-blue">
         <Row className="">
             <Col  id="" className="" lg={{ span: 12, offset: 0 }}>
             <div>
-  <canvas id="myChart"></canvas>
+            <Doughnut />
+            
 </div>
+
+ 
+
+ 
                
             </Col>
            
