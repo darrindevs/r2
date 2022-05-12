@@ -23,7 +23,7 @@ const VerticalPage = () => {
         <Row className="">
             <Col  id="" className="" lg={{ span: 6, offset: 0 }}>
               <div className=''>
-                  Entitlement Launch
+                  <h3 className='text-end'>Entitlement Launch</h3>
               </div>
                
             </Col>
