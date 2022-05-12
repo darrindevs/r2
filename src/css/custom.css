@@ -517,6 +517,16 @@ body > .footer {
     
 }
 
+.line-right {
+    border-right: white solid 1px;
+   
+}
+
+.line-left {
+    border-left: white solid 1px;
+   
+}
+
 .img-distro {
    
 }
